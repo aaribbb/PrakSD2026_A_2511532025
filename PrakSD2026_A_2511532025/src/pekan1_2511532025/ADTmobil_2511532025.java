@@ -35,7 +35,7 @@ public class ADTmobil_2511532025 {
 		list.remove(index);
 	}
 	public String toString() {
-		return "Nama: " + nama + ", Tahun: " + tahun + ", CC " + cc + ", Harga: " + harga + ", Merk: " + merk;
+		return String.format("Nama: %s, Tahun: %d, CC: %d, Harga: %.0f, Merk: %s", nama, tahun, cc, harga, merk);
  	}
 }
 
